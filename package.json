@@ -1,0 +1,15 @@
+{
+  "name": "karino",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Karino - Kurdistan employment marketplace",
+  "scripts": {
+    "supabase:start": "supabase start",
+    "supabase:stop": "supabase stop",
+    "supabase:status": "supabase status",
+    "supabase:reset": "supabase db reset"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}

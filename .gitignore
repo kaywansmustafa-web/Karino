@@ -1,0 +1,48 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Supabase local state
+supabase/.branches/
+supabase/.temp/
+
+# Logs
+*.log
+
+# Secrets
+*.pem
+*.key
+*.p12
+*.pfx
+service-account*.json
+credentials*.json
+google-services.json
+GoogleService-Info.plist
